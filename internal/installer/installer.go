@@ -32,7 +32,7 @@ func Run() {
 	installDir := "/opt/rustdesk"
 	logDir := "/var/log/rustdesk"
 	systemdDir := "/etc/systemd/system"
-	downloadURL := "https://files.wanghaoyu.com.cn:8443/rustdesk/" + archiveName
+	downloadURL := "https://wanghaoyu.com.cn/rustdesk/" + archiveName
 
 	if isInstalled(installDir) {
 		op := prompt.Menu("检测到已安装，选择操作：", []string{"覆盖安装", "卸载", "取消"})
