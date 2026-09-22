@@ -26,7 +26,7 @@
 # =============================================================================
 set -euo pipefail
 
-REPO="nas-tool/rustdesk_install"
+REPO="njfkib/rustdesk_install"
 API_LATEST="https://api.github.com/repos/${REPO}/releases/latest"
 RELEASE_BASE="https://github.com/${REPO}/releases/download"
 
