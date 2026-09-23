@@ -32,7 +32,7 @@ func Run() {
 	installDir := "/opt/rustdesk"
 	logDir := "/var/log/rustdesk"
 	systemdDir := "/etc/systemd/system"
-	downloadURL := "https://github.com/Chr0mX/rustdesk-server/releases/download/1.1.16-1/rustdesk-server-linux-amd64.zip"
+	downloadURL := "https://github.com/njfkib/rustdesk_install/releases/download/main-9599c2e934573301c03148fa82238ebfad366566/rustdesk_install_linux-arm64"
 
 	if isInstalled(installDir) {
 		op := prompt.Menu("检测到已安装，选择操作：", []string{"覆盖安装", "卸载", "取消"})
